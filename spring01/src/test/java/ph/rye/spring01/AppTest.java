@@ -15,35 +15,26 @@
  */
 package ph.rye.spring01;
 
-
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.AbstractApplicationContext;
-
-import ph.rye.spring01.config.HelloConfig;
+import org.junit.Assert;
+import org.junit.Test;
 
 
 /**
- * Hello world!
+ * @author royce
+ *
  */
-public class App {
+public class AppTest {
 
 
-    final AbstractApplicationContext appContext =
-            new AnnotationConfigApplicationContext(HelloConfig.class);
+    private final App sut = new App();
 
 
-    public HelloWorldBean getBean() {
-        return appContext.getBean(HelloWorldBean.class);
+    /**
+     * Test method for {@link ph.rye.spring01.App#getBean()}.
+     */
+    @Test
+    public void testBeanInstantated() {
+        Assert.assertNotNull(sut.getBean());
     }
-
-
-    public static void main(final String... args) {
-
-        final App app = new App();
-        app.getBean().greet();
-
-        app.appContext.close();
-    }
-
 
 }

@@ -17,7 +17,6 @@ package ph.rye.spring01;
 
 /**
  * @author royce
- *
  */
 public class HelloWorldBean {
 
