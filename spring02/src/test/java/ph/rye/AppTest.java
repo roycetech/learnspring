@@ -13,37 +13,30 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License. 
  */
-package ph.rye.spring02;
+package ph.rye;
 
+import org.junit.Assert;
+import org.junit.Test;
 
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.AbstractApplicationContext;
-
-import ph.rye.spring02.config.HelloConfig;
+import ph.rye.spring02.App;
 
 
 /**
- * Hello world!
+ * @author royce
+ *
  */
-public class App {
+public class AppTest {
 
 
-    final AbstractApplicationContext appContext =
-            new AnnotationConfigApplicationContext(HelloConfig.class);
+    private final App sut = new App();
 
 
-    public HelloWorldBean getBean() {
-        return appContext.getBean(HelloWorldBean.class);
+    /**
+     * Test method for {@link ph.rye.spring02.App#getBean()}.
+     */
+    @Test
+    public void testBeanInstantated() {
+        Assert.assertNotNull(sut.getBean());
     }
-
-
-    public static void main(final String... args) {
-
-        final App app = new App();
-        app.getBean().greet();
-
-        app.appContext.close();
-    }
-
 
 }
