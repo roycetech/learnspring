@@ -13,16 +13,30 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License. 
  */
-package ph.rye.spring03;
+package ph.rye;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import ph.rye.spring03.App;
+
 
 /**
  * @author royce
+ *
  */
-public class HelloWorldBean {
+public class AppTest {
 
-    @SuppressWarnings("PMD.SystemPrintln")
-    void greet() {
-        System.out.println("Hello World");
+
+    private final App sut = new App();
+
+
+    /**
+     * Test method for {@link ph.rye.spring03.App#getBean()}.
+     */
+    @Test
+    public void testBeanInstantated() {
+        Assert.assertNotNull(sut.getBean());
     }
 
 }

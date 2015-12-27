@@ -23,23 +23,25 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * Hello world!
  */
-public final class App {
+public class App {
 
 
-    private App() {}
+    final AbstractApplicationContext appContext =
+            new ClassPathXmlApplicationContext("/META-INF/spring/spring.xml");
 
 
-    public static void main(final String[] args) {
-
-
-        final AbstractApplicationContext appContext =
-                new ClassPathXmlApplicationContext(
-                    "/META-INF/spring/spring.xml");
-
-        final HelloWorldBean hello = appContext.getBean(HelloWorldBean.class);
-        hello.greet();
-
-        appContext.close();
+    public HelloWorldBean getBean() {
+        return appContext.getBean(HelloWorldBean.class);
     }
+
+
+    public static void main(final String... args) {
+
+        final App app = new App();
+        app.getBean().greet();
+
+        app.appContext.close();
+    }
+
 
 }
