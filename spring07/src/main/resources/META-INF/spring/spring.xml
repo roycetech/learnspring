@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:c="http://www.springframework.org/schema/c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<!-- 1. Parameter name. -->
+	<bean id="duty" class="ph.rye.spring07.WriteUnitTestDuty"
+		c:stream="#{T(System).out}" />
+
+	<!-- 2. Indexed -->
+	<!-- <bean id="duty" class="ph.rye.spring07.WriteUnitTestDuty" c:_0="#{T(System).out}" 
+		/> -->
+
+	<!-- 3. Single Constructor do not require index. -->
+	<!-- <bean id="duty" class="ph.rye.spring07.WriteUnitTestDuty" c:_="#{T(System).out}" 
+		/> -->
+
+
+	<!-- 1. Parameter name -->
+	<!-- <bean class="ph.rye.spring07.RealDeveloper" c:duty-ref="duty" /> -->
+
+	<!-- 2. Indexed -->
+	<!-- <bean class="ph.rye.spring07.RealDeveloper" c:_0-ref="duty" /> -->
+
+	<!-- 3. Single Constructor do not require index. -->
+	<bean class="ph.rye.spring07.RealDeveloper" c:_-ref="duty" />
+
+
+</beans>
+

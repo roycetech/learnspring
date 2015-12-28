@@ -6,4 +6,5 @@ target
 bin
 .eclipse-pmd
 .metadata
+.recommenders
 
