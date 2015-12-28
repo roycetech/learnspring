@@ -14,6 +14,8 @@ Part I<br/>
 <br/>
 11. Autowiring Using Java Config<br/>
 12. Autowiring Using XML<br/>
+13. Autowiring Using Java Config Resolving Ambiguity<br/>
+14. Autowiring Using XML Resolving Ambiguity<br/>
 <br/>
-13. Using Spring Test Java Config<br/>
-14. Using Spring Test XML<br/>
+1?. Using Spring Test Java Config<br/>
+1?. Using Spring Test XML<br/>
