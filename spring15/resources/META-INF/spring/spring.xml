@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util 
+		http://www.springframework.org/schema/util/spring-util-4.2.xsd">
+
+
+	<bean id="duty" class="ph.rye.spring15.WriteUnitTestDuty" c:_="#{T(System).out}" />
+	<bean id="skill" class="ph.rye.spring15.DrySkill" c:_="#{T(System).out}" />
+
+	<bean id="ide" class="ph.rye.spring15.CodeEditor" c:_="#{T(System).out}" />
+	<bean id="cvs" class="ph.rye.spring15.VersionControl" c:_="#{T(System).out}" />
+
+
+	<!-- 1. Parameter name -->
+	<bean class="ph.rye.spring15.RealDeveloper" c:_0-ref="duty" c:_1="#{T(System).out}" 
+		p:skill-ref="skill"
+		p:contacts-ref="mushromKingdomContacts"
+		p:tools-ref="greatToolList"
+		 />
+ 	
+ 	<util:list id="mushromKingdomContacts">
+ 				<value>Mario</value>
+ 				<value>Luigi</value>
+ 				<value>Toad</value>
+ 	</util:list>
+ 	
+ 	 <util:list id="greatToolList">
+ 				<ref bean="ide" />
+ 				<ref bean="cvs" />
+ 	</util:list>
+ 	
+ 
+</beans>
+
