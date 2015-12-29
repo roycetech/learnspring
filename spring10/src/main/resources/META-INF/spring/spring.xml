@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="duty" class="ph.rye.spring10.WriteUnitTestDuty" c:_="#{T(System).out}" />
+	<bean id="skill" class="ph.rye.spring10.DrySkill"  c:_="#{T(System).out}" />
+
+	<!-- 1. Parameter name -->
+	<bean class="ph.rye.spring10.RealDeveloper" c:_-ref="duty" p:skill-ref="skill" />
+ 
+</beans>
+

@@ -11,6 +11,9 @@ Part I<br/>
 08. Dependency Injection Property using Java Config<br/>
 09. Dependency Injection Property using XML<br/>
 10. Dependency Injection Property using XML and P Namespace<br/>
+11. Dependency Injection List Property Values using Java Config<br/>
+12. Dependency Injection List Property Beans using Java Config<br/>
+
 <br/>
 11. Autowiring Using Java Config<br/>
 12. Autowiring Using XML<br/>
