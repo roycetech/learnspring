@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans 
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	default-autowire="byType"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util 
+		http://www.springframework.org/schema/util/spring-util-4.2.xsd">
+
+
+	<!-- Auto wiring of List of String is not working. -->  
+	<bean class="ph.rye.spring17.RealDeveloper" c:_0-ref="duty"
+		c:_1="#{T(System).out}" p:contacts-ref="contacts"/>
+
+
+	<bean id="duty" class="ph.rye.spring17.WriteUnitTestDuty" c:_="#{T(System).out}" />
+	<bean id="skill" class="ph.rye.spring17.DrySkill" c:_="#{T(System).out}" />
+
+
+	<bean id="ide" class="ph.rye.spring17.CodeEditor" c:_="#{T(System).out}" />
+	<bean id="vcs" class="ph.rye.spring17.VersionControl" c:_="#{T(System).out}" />
+
+
+	<util:list id="contacts" value-type="java.lang.String">
+		<value>Mario</value>
+		<value>Luigi</value>
+		<value>Toad</value>
+	</util:list>
+
+	<util:list id="greatToolList">
+		<ref bean="ide" />
+		<ref bean="vcs" />
+	</util:list>
+
+
+</beans>
+
