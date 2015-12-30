@@ -20,8 +20,8 @@ Part I<br/>
 16. Autowiring Using Java Config<br/>
 17. Autowiring Using XML<br/>
 18. Using Spring Test Java Config
-19. Java Config with XML Config<br/>
-20. XML Config with Java Config<br/>
+??. Java Config with XML Config<br/>
+??. XML Config with Java Config<br/>
 
 
 1?. Autowiring Using Java Config Resolving Ambiguity<br/>
