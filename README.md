@@ -17,10 +17,15 @@ Part I<br/>
 14. Dependency Injection List Property Beans using XML<br/>
 15. Dependency Injection List Property Beans using XML and util Namespace<br/>
 <br/>
-11. Autowiring Using Java Config<br/>
-12. Autowiring Using XML<br/>
-13. Autowiring Using Java Config Resolving Ambiguity<br/>
-14. Autowiring Using XML Resolving Ambiguity<br/>
+16. Autowiring Using Java Config<br/>
+17. Autowiring Using XML<br/>
+18. Using Spring Test Java Config
+19. Java Config with XML Config<br/>
+20. XML Config with Java Config<br/>
+
+
+1?. Autowiring Using Java Config Resolving Ambiguity<br/>
+1?. Autowiring Using XML Resolving Ambiguity<br/>
 <br/>
 1?. Using Spring Test Java Config<br/>
 1?. Using Spring Test XML<br/>
