@@ -28,7 +28,8 @@ Part I<br/>
 ? 24. Java Config referencing XML Config<br/>
 ? 25. XML Config referencing Java Config<br/>
 
-? 351 Injecting External Values<br/>
+351 Injecting External Values<br/>
+	Injecting from Property File.
 
 
 352 Wiring with SPEL<br/>
