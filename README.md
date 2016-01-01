@@ -21,15 +21,21 @@ Part I<br/>
 17. Autowiring Using XML<br/>
 18. Using Spring Test Java Config
 19. Using Spring Test XML Config
-??. Java Config with XML Config<br/>
-??. XML Config with Java Config<br/>
+20. Spring AOP Before advice execute designation<br/>
+21. Spring AOP Around advice execute designation<br/>
+22. Spring AOP Around advice and with arguments designation<br/>
+? 23. Java Config referencing another Java Config<br/>
+? 24. Java Config referencing XML Config<br/>
+? 25. XML Config referencing Java Config<br/>
+
+? 351 Injecting External Values<br/>
 
 
-1?. Autowiring Using Java Config Resolving Ambiguity<br/>
-1?. Autowiring Using XML Resolving Ambiguity<br/>
-<br/>
-1?. Using Spring Test Java Config<br/>
-1?. Using Spring Test XML<br/>
+352 Wiring with SPEL<br/>
+	Fixed integer<br/>
+	Type Expression<br/>
+	Calling method from another bean<br/>
+	Chaining method call<br/>
 
 
 
