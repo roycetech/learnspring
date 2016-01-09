@@ -1,3 +1,5 @@
+Preceded with ? mark means placeholder, example may be implemented in the future.<br/>
+<br/>
 Part I<br/>
 01. Hello World POJO using Java Config.<br/>
 02. Hello World POJO using Java Config and Component Scanning.<br/>
@@ -37,6 +39,8 @@ Part I<br/>
 	Type Expression<br/>
 	Calling method from another bean<br/>
 	Chaining method call<br/>
+?	Evaluating Collections
 
+? 444 Introducing new functionality with aspects
 
 
