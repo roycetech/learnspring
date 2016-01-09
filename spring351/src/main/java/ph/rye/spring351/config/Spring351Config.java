@@ -13,7 +13,11 @@ import ph.rye.spring351.BeanMarker;
 @ComponentScan(basePackageClasses = {
         BeanMarker.class })
 @PropertySource("classpath:/ph/rye/spring351/Spring351.properties")
-public class Spring351Config {
+public final class Spring351Config {
+
+
+    private Spring351Config() {}
+
 
     @Bean
     public static PropertySourcesPlaceholderConfigurer placeholderConfigurer() {
