@@ -31,14 +31,14 @@ Part I<br/>
 ? 25. XML Config referencing Java Config<br/>
 
 351 Injecting External Values<br/>
-	Injecting from Property File.
+&nbsp;&nbsp;&nbsp;&nbsp;Injecting from Property File.
 
 
 352 Wiring with SPEL<br/>
-	Fixed integer<br/>
-	Type Expression<br/>
-	Calling method from another bean<br/>
-	Chaining method call<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Fixed integer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Type Expression<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Calling method from another bean<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Chaining method call<br/>
 <br/>
 ?	Evaluating Collections<br/>
 <br/>
