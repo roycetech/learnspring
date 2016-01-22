@@ -47,6 +47,7 @@ Part I<br/>
 512 Skeleton codes for Spring MVC with Maven/Gradle<br/>
 520 Writing a simple controller.<br/>
 521 Testing the Controller<br/>
+522 Defining class-level request handling<br/>
 523 Passing Data to the view<br/>
 530 Accepting Request Input<br/>
 531 Taking query parameters<br/>
@@ -61,6 +62,6 @@ Part I<br/>
 641 Configuring a Thymeleaf view resolver<br/>
 1521 Server/Client RMI<br/>
 1540 Server/Client Http Invoker<br/>
-1550 Server/Client JAX WS<br/>
+1550 Server/Client JAX WS(client not yet working)<br/>
 
 
