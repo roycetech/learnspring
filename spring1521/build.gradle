@@ -1,0 +1,27 @@
+/*
+ *	Server/Client RMI
+*/
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+
+dependencies {
+	
+    compile "org.springframework:spring-context:$springVersion"
+
+    testCompile "junit:junit-dep:$junitVersion"
+    testCompile "org.springframework:spring-test:$springVersion"
+    testCompile "org.mockito:mockito-core:$mockitoVersion"
+    testCompile "org.hamcrest:hamcrest-library:$hamcrestVersion"
+
+//	runtime 'org.springframework.integration:spring-integration-rmi:$springVersion'
+}
+
+repositories {
+	maven { url 'http://maven.springframework.org/release' }
+	maven { url 'http://maven.springframework.org/milestone' }
+	maven { url 'http://maven.springframework.org/snapshot' }
+	maven { url 'http://download.java.net/maven/2' }
+	mavenCentral()
+}

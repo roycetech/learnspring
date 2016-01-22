@@ -22,7 +22,6 @@ public class TalkrWebAppInitializer
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        System.out.println("*****************************getServletMappings");
         return new Class<?>[] {
                 WebConfig.class };
     }
