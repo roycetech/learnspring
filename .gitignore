@@ -7,4 +7,6 @@ bin
 .eclipse-pmd
 .metadata
 .recommenders
+.gradle
+build
 
