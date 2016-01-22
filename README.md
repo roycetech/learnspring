@@ -1,3 +1,5 @@
+Preceded with ? mark means placeholder, example may be implemented in the future.<br/>
+<br/>
 Part I<br/>
 01. Hello World POJO using Java Config.<br/>
 02. Hello World POJO using Java Config and Component Scanning.<br/>
@@ -24,7 +26,7 @@ Part I<br/>
 20. Spring AOP Before advice execute designation<br/>
 21. Spring AOP Around advice execute designation<br/>
 22. Spring AOP Around advice and with arguments designation<br/>
-? 23. Java Config referencing another Java Config<br/>
+23. Java Config referencing another Java Config<br/>
 ? 24. Java Config referencing XML Config<br/>
 ? 25. XML Config referencing Java Config<br/>
 
@@ -37,6 +39,27 @@ Part I<br/>
 	Type Expression<br/>
 	Calling method from another bean<br/>
 	Chaining method call<br/>
+?	Evaluating Collections<br/>
+<br/>
+? 444 Introducing new functionality with aspects<br/>
+<br/>
+512 Skeleton codes for Spring MVC with Maven/Gradle<br/>
+520 Writing a simple controller.<br/>
+521 Testing the Controller<br/>
+523 Passing Data to the view
+530 Accepting Request Input
+531 Taking query parameters
+532 Taking input via path parameters
+540 Processing Forms
+541 Writing a form-handling controller
+542 Validating Forms
 
+622 Using Spring’s JSP libraries
+623 Displaying internationalized messages.
+631 Configuring a Tiles view resolver
+641 Configuring a Thymeleaf view resolver
+1521 Server/Client RMI
+1540 Server/Client Http Invoker
+1550 Server/Client JAX WS
 
 
