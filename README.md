@@ -47,20 +47,20 @@ Part I<br/>
 512 Skeleton codes for Spring MVC with Maven/Gradle<br/>
 520 Writing a simple controller.<br/>
 521 Testing the Controller<br/>
-523 Passing Data to the view
-530 Accepting Request Input
-531 Taking query parameters
-532 Taking input via path parameters
-540 Processing Forms
-541 Writing a form-handling controller
-542 Validating Forms
-
-622 Using Spring’s JSP libraries
-623 Displaying internationalized messages.
-631 Configuring a Tiles view resolver
-641 Configuring a Thymeleaf view resolver
-1521 Server/Client RMI
-1540 Server/Client Http Invoker
-1550 Server/Client JAX WS
+523 Passing Data to the view<br/>
+530 Accepting Request Input<br/>
+531 Taking query parameters<br/>
+532 Taking input via path parameters<br/>
+540 Processing Forms<br/>
+541 Writing a form-handling controller<br/>
+542 Validating Forms<br/>
+<br/>
+622 Using Spring’s JSP libraries<br/>
+623 Displaying internationalized messages.<br/>
+631 Configuring a Tiles view resolver<br/>
+641 Configuring a Thymeleaf view resolver<br/>
+1521 Server/Client RMI<br/>
+1540 Server/Client Http Invoker<br/>
+1550 Server/Client JAX WS<br/>
 
 
